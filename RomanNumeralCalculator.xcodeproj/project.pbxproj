@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454639401BCE7BF2415F79A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AA5C6904490219FA1681A4 /* QuartzCore.framework */; };
+		6241B5B760496236A6AF3594 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776BE016D1ED2FF04B852FD4 /* SystemConfiguration.framework */; };
+		70C9FEE2A87D4C5863C7CDD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A54D7ADF5D7CDA9668AF64 /* AVFoundation.framework */; };
+		763A5164A7EA626884994ACF /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634E215836A69FC97001FD55 /* BuddyBuildSDK.framework */; };
+		79ED9F20CC75D97900FB724E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2211A56C37D95B3322DD3 /* CoreMedia.framework */; };
 		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
 		835AEC911D80DD800046555C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
 		835AEC941D80DD800046555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
@@ -16,6 +21,10 @@
 		835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		835F656A1D87A7B400B33AE0 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 835F65691D87A7B400B33AE0 /* Icons */; };
+		8DEEC4428F731BB320374406 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB0141F04656478EE9252AE /* CoreText.framework */; };
+		9B6435701E8510407B23832A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD847E4E330E630C0A1EAD /* AssetsLibrary.framework */; };
+		9E77A760CA0918FC787BE7C3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B400B152BAABAC6DA5CF697 /* CoreVideo.framework */; };
+		EA01C40FCEB5BF7CB2D71F37 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCE8441219F543A3EBAFEA6 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A54D7ADF5D7CDA9668AF64 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1DB0141F04656478EE9252AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		36E1CB7387FF8AAAAC63156C /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		45FD847E4E330E630C0A1EAD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5B400B152BAABAC6DA5CF697 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		634E215836A69FC97001FD55 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		71B2211A56C37D95B3322DD3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		776BE016D1ED2FF04B852FD4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835AEC901D80DD800046555C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +68,8 @@
 		835AECB01D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 		835F65691D87A7B400B33AE0 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = SOURCE_ROOT; };
+		CDCE8441219F543A3EBAFEA6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E4AA5C6904490219FA1681A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763A5164A7EA626884994ACF /* BuddyBuildSDK.framework in Frameworks */,
+				9B6435701E8510407B23832A /* AssetsLibrary.framework in Frameworks */,
+				8DEEC4428F731BB320374406 /* CoreText.framework in Frameworks */,
+				EA01C40FCEB5BF7CB2D71F37 /* CoreTelephony.framework in Frameworks */,
+				6241B5B760496236A6AF3594 /* SystemConfiguration.framework in Frameworks */,
+				454639401BCE7BF2415F79A5 /* QuartzCore.framework in Frameworks */,
+				70C9FEE2A87D4C5863C7CDD0 /* AVFoundation.framework in Frameworks */,
+				79ED9F20CC75D97900FB724E /* CoreMedia.framework in Frameworks */,
+				9E77A760CA0918FC787BE7C3 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +114,7 @@
 				835AECAD1D80DD800046555C /* RomanNumeralCalculatorUITests */,
 				835AEC8C1D80DD800046555C /* Products */,
 				84C013C0B11AB9F95B36881F /* Frameworks */,
+				36E1CB7387FF8AAAAC63156C /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +164,15 @@
 		84C013C0B11AB9F95B36881F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				634E215836A69FC97001FD55 /* BuddyBuildSDK.framework */,
+				45FD847E4E330E630C0A1EAD /* AssetsLibrary.framework */,
+				1DB0141F04656478EE9252AE /* CoreText.framework */,
+				CDCE8441219F543A3EBAFEA6 /* CoreTelephony.framework */,
+				776BE016D1ED2FF04B852FD4 /* SystemConfiguration.framework */,
+				E4AA5C6904490219FA1681A4 /* QuartzCore.framework */,
+				17A54D7ADF5D7CDA9668AF64 /* AVFoundation.framework */,
+				71B2211A56C37D95B3322DD3 /* CoreMedia.framework */,
+				5B400B152BAABAC6DA5CF697 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -438,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomanNumeralCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -459,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-cooked.RomanNumeralCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
